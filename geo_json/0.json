@@ -1,0 +1,10 @@
+{
+    "name": "Geometry#0",
+    "description": "Geometry is an NFT collection for educational purposes.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcfsZCGdcXyHJP8MupMQwYuSET8TFJCHUhAaoJwe4EJuP/0.svg",
+    "attributes": [
+        { "trait_type": "background", "value": "cyan" },
+        { "trait_type": "color", "value": "red" },
+        { "trait_type": "shape", "value": "circle" }
+    ]
+}
