@@ -19,4 +19,8 @@ describe("Geometry contract", function() {
         expect(await geometryContract.owner()).to.equal(await owner.address); 
     }); 
 
+    it("Safemint should transfer ownership of the NFT from one address to the other", async function() {
+        const { geometryContract, owner} = await loadFixture(deployedGeometry); 
+        expect(await geometryContract.safeMint(owner.address, 1)).to.emit(geometryContract, "Transfer"); 
+    }); 
 })
